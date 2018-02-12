@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="style/Layout.css">
+    <link rel="stylesheet" href="style/Logo.css">
+    <link rel="stylesheet" href="style/Search.css">
+    <link rel="stylesheet" href="style/User-options.css">
+    <link rel="stylesheet" href="style/Profile.css">
+    <link rel="stylesheet" href="style/Promoarticle.css">
+    <link rel="stylesheet" href="style/Navigation.css">
+    <link rel="stylesheet" href="style/Movie.css">
+    <link rel="stylesheet" href="style/Movies-menu.css">
+    <link rel="stylesheet" href="style/Loading.css">
+    <link rel="stylesheet" href="style/Sitemap.css">
+    <link rel="stylesheet" href="style/Socialmedia.css">
+    <link rel="stylesheet" href="style/Footer.css">
+</head>
+<body class="Layout">
+<header class="Layout__header">
+    <div class="Promoarticle">
+        <div class="Wrapper">
+            <div class="Promoarticle__header">
+                <p class="Logo">THEMOVIEBOX</p>
+                <div class="Promoarticle__header-right">
+                    <button class="Search"></button>
+                    <div class="Profile">
+                        <button class="Profile__login">LOG IN</button>
+                        <button class="Profile__signup">SIGN UP</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Promoarticle__bottom">
+            <div class="Wrapper">
+                <div class="Promoarticle__description">
+                    <p class="Promoarticle__name">WRATH OF THE TITANS</p>
+                    <section class="Promoarticle__about">
+                        <p class="Promoarticle__genre">Fantasy</p>
+                        <p class="Promoarticle__genre">Animation</p>
+                        <p class="Promoarticle__genre">Family</p>
+                        <p class="Promoarticle__duration">Duration: 1h 52m</p>
+                    </section>
+                </div>
+                <div class="Promoarticle__footer">
+                    <div class="User-options">
+                        <button class="User-options__watch">WATCH MOVIE</button>
+                        <button class="User-options__view">VIEW INFO</button>
+                        <button class="User-options__add">+ ADD TO WISHLIST</button>
+                    </div>
+                    <div class="Promoarticle__raiting-info">
+                        <p class="Promoarticle__raiting">Raiting <span class="Promoarticle__raiting Promoarticle__raiting_details">based on 3.546 reviews</span></p>
+                        <div class="Promoarticle__star"></div>
+                        <div class="Promoarticle__star"></div>
+                        <div class="Promoarticle__star"></div>
+                        <div class="Promoarticle__star Promoarticle__star_half"></div>
+                        <div class="Promoarticle__star Promoarticle__star_transparent"></div>
+                        <div class="Promoarticle__star Promoarticle__star_count">3.4</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <main class="Layout__main">
+    <div class="Wrapper">
+        <nav class="Navigation">
+            <div class="Navigation__items">
+                <a class="Navigation__item Navigation__item_selected" href="#">Trending</a>
+                <a class="Navigation__item" href="#">Top Rated</a>
+                <a class="Navigation__item" href="#">New Arrivals</a>
+                <a class="Navigation__item" href="#">Genre<button class="Navigation__drop-down"></button></a>
+            </div>
+            <div class="Navigation__views">
+                <div class="Navigation__view Navigation__view_icons"></div>
+                <div class="Navigation__view Navigation__view_list"></div>
+            </div>
+        </nav>
+        <div class="Movies-menu">
+            {{#movie}}
+                <article class="Movie">
+                    <img class="Movie__poster" src="{{image}}" alt="">
+                    <p class="Movie__year">{{year}}</p>
+                    <p class="Movie__name">{{name}}</p>
+                    <p class="Movie__genre">{{genre}}</p>
+                    <div class="Movie__rating">{{rating}}</div>
+                </article>
+            {{/movie}}
+        </div>
+        <figure class="Loading">
+            <img class="Loading__image" src="../img/loading.svg" alt="">
+            <figcaption class="Loading__text">LOADING</figcaption>
+        </figure>
+    </div>
+    </main>
+    <footer class="Layout__footer">
+        <div class="Wrapper">
+            <div class="Footer">
+                <div class="Footer__top">
+                    <p class="Logo Logo_dark">THEMOVIEBOX</p>
+                    <nav class="Sitemap">
+                        <a class="Sitemap__item" href="">About</a>
+                        <a class="Sitemap__item" href="">Movies</a>
+                        <a class="Sitemap__item" href="">Ratings</a>
+                        <a class="Sitemap__item" href="">Contact</a>
+                    </nav>
+                </div>
+                <div class="Footer__bottom">
+                    <p class="Footer__copyright">Designed by Milan Houter. All rights reserved.</p>
+                    <div class="Social-media">
+                        <a class="Social-media__item Social-media__item_fb" href=""></a>
+                        <a class="Social-media__item Social-media__item_pinterest" href=""></a>
+                        <a class="Social-media__item Social-media__item_twitter" href=""></a>
+                        <a class="Social-media__item Social-media__item_linkedin" href=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

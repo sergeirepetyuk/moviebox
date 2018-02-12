@@ -1,0 +1,61 @@
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 9px;
+
+  &__item {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #80818a;
+    text-decoration: none;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+   /*margin-right: 50px;*/
+
+    &_selected {
+      color: #ff0079;
+      border-bottom: 2px solid #ff0079;
+    }
+
+  }
+
+  &__drop-down {
+    margin-left: 5px;
+    margin-top: -15px;
+    background-image: url("http://res.cloudinary.com/dvhn8lvvz/image/upload/e_fill_light:97/a_90/v1515333945/arrow-right-01-256_b40xbs.png");
+    background-size: 60%;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    opacity: .7;
+  }
+
+  &__views {
+    display: flex;
+  }
+
+  &__view {
+    width: 30px;
+    height: 30px;
+    &_icons {
+      background-image: url("../img/thumbnail-view.svg");
+      background-size: cover;
+    }
+    &_list {
+      background-image: url("../img/detailed-view.svg");
+      background-size: cover;
+    }
+  }
+}

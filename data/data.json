@@ -1,0 +1,88 @@
+{
+"movie": [
+  {
+    "image": "http://res.cloudinary.com/dvhn8lvvz/image/upload/c_fill,g_north,h_268,w_217/v1517009503/Logan-Poster-Hugh-Jackman-Wolverine-3_tqck5c.jpg",
+    "year": "2017",
+    "name": "Logan",
+    "genre": "Action, Adventure, Fantasy",
+    "rating": "4.0"
+  },
+  {
+    "image": "http://res.cloudinary.com/dvhn8lvvz/image/upload/c_fill,g_face,h_268,w_217/v1517010266/john-wick-2-guns_fhju6e.jpg",
+    "year": "2017",
+    "name": "John Wick: Chapter 2",
+    "genre": "Action, Thriller",
+    "rating": "4.8"
+  },
+  {
+    "image": "http://res.cloudinary.com/dvhn8lvvz/image/upload/c_fill,g_face,h_268,w_217/v1517010454/fantastic-beasts-1200-1200-675-675-crop-000000_cspss8.jpg",
+    "year": "2017",
+    "name": "Fantastic beasts an…",
+    "genre": "Adventure, Fantasy, Action",
+    "rating": "4.5"
+  },
+  {
+    "image": "http://res.cloudinary.com/dvhn8lvvz/image/upload/c_fill,g_face,h_268,w_217/v1517010586/50shades_fjia6a.jpg",
+    "year": "2017",
+    "name": "Fifty shades darker",
+    "genre": "Drama, Roman",
+    "rating": "4.6"
+  },
+  {
+    "image": "http://res.cloudinary.com/dvhn8lvvz/image/upload/c_fill,g_center,h_268,w_217/v1517010721/Beauty-and-the-Beast-2017-after-credits-hq_prsoos.jpg",
+    "year": "2017",
+    "name": "Beauty and the Beast",
+    "genre": "Musical, Drama, Fantasy",
+    "rating": "4.4"
+  },
+  {
+    "image": "http://res.cloudinary.com/dvhn8lvvz/image/upload/c_fill,g_center,h_268,w_217/v1517011128/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_UY1200_CR69_0_630_1200_AL__ztini0.jpg",
+    "year": "2017",
+    "name": "Arrival",
+    "genre": "Action, Thriller, Sci-Fi",
+    "rating": "3.4"
+  },
+  {
+    "image": "http://res.cloudinary.com/dvhn8lvvz/image/upload/c_fill,g_center,h_268,w_217/v1517011279/landscape-1504266508-justice-league-1_yydbbs.jpg",
+    "year": "2017",
+    "name": "Justice League",
+    "genre": "Adventure, Sci-Fi, Action",
+    "rating": "3.9"
+  },
+  {
+    "image": "http://res.cloudinary.com/dvhn8lvvz/image/upload/c_fill,g_faces,h_268,w_217/v1517011407/MV5BMTYyMTcxNzc5M15BMl5BanBnXkFtZTgwOTg2ODE2MTI_._V1_UY1200_CR90_0_630_1200_AL__xtycxn.jpg",
+    "year": "2017",
+    "name": "Pirates of the Caribb…",
+    "genre": "Adventure, Fantasy, Action",
+    "rating": "4.2"
+  },
+  {
+    "image": "http://res.cloudinary.com/dvhn8lvvz/image/upload/c_fill,g_center,h_268,w_217/v1517011613/586d60f7b0cf1.image_b4frnd.jpg",
+    "year": "2017",
+    "name": "Wonder Woman",
+    "genre": "Action, Adventure, Sci-Fi",
+    "rating": "3.8"
+  },
+  {
+    "image": "http://res.cloudinary.com/dvhn8lvvz/image/upload/c_fill,g_center,h_268,w_217/v1517011747/4117_jvjg00.jpg",
+    "year": "2017",
+    "name": "Guardians of the Gal…",
+    "genre": "Action, Sci-Fi, Comedy",
+    "rating": "3.0"
+  },
+  {
+    "image": "http://res.cloudinary.com/dvhn8lvvz/image/upload/c_fill,g_center,h_268,w_217/v1517014704/xalien_covenant_fill.jpg.pagespeed.ic.rPyCbS72Kx.0_chskef.jpg",
+    "year": "2017",
+    "name": "Alien: Covenant",
+    "genre": "Horror, Action, Sci-Fi, Action",
+    "rating": "4.0"
+  },
+  {
+    "image": "http://res.cloudinary.com/dvhn8lvvz/image/upload/c_fill,g_face,h_268,w_217/v1517011988/captain-underpants-633x356_wfco6l.jpg",
+    "year": "2017",
+    "name": "Captain Underpant…",
+    "genre": "Animation, Comedy",
+    "rating": "3.5"
+  }
+]
+}

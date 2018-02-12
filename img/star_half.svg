@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -10 300 300">
+    <g id="star" stroke="#ff0079" stroke-width="6" stroke-linejoin="miter">
+            <path fill="#ff0079" d="M 110 1 L 85 78 L 8 75 L 72 122 L 44 199 L110 150 Z " />
+            <path fill="none" d="M 110 0 L 133 77 L 215 75 L 148 122 L 175 199 L110 150 Z " />
+    </g>
+</svg>
