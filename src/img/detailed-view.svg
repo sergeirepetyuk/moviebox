@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <g id="thumbnail-view" fill="transparent" stroke="#babbc3" stroke-width="3">
+        <rect x="10" y="10" width="70" height="12"/>
+        <rect x="10" y="35" width="40" height="12"/>
+        <rect x="10" y="60" width="70" height="12"/>
+    </g>
+</svg>

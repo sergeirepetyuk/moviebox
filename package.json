@@ -10,14 +10,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "browser-sync": "^2.23.6",
     "es6-promise": "^4.2.4",
     "flexboxgrid": "^6.3.1",
     "font-awesome": "^4.7.0",
-    "isomorphic-fetch": "^2.2.1"
+    "gulp-copy": "^1.1.0",
+    "i": "^0.3.6",
+    "isomorphic-fetch": "^2.2.1",
+    "less": "^2.7.3",
+    "mustache": "^2.3.0",
+    "nmp": "^1.0.3"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-mustache": "^3.0.1",
-    "gulp-less": "^3.4.0"
+    "gulp-less": "^3.5.0",
+    "gulp-mustache": "^3.0.1"
   }
 }

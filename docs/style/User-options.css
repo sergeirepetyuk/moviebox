@@ -1,0 +1,35 @@
+.User-options {
+  display: flex;
+  height: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.User-options__watch {
+  width: 175px;
+  color: #ffffff;
+  margin-right: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ff0079;
+}
+.User-options__view {
+  width: 140px;
+  color: #ffffff;
+  margin-right: 16px;
+  border-radius: 5px;
+  border: solid 2px #ffffff;
+  background-color: transparent;
+}
+.User-options__add {
+  width: 150px;
+  color: #ffffff;
+  margin-right: 16px;
+  border: none;
+  background-color: transparent;
+}

@@ -1,17 +1,202 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/common.css">
-  <link rel="stylesheet" href="css/Block.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="style/Layout.css">
+    <link rel="stylesheet" href="style/Logo.css">
+    <link rel="stylesheet" href="style/Search.css">
+    <link rel="stylesheet" href="style/User-options.css">
+    <link rel="stylesheet" href="style/Profile.css">
+    <link rel="stylesheet" href="style/Promoarticle.css">
+    <link rel="stylesheet" href="style/Navigation.css">
+    <link rel="stylesheet" href="style/Movie.css">
+    <link rel="stylesheet" href="style/Movies-menu.css">
+    <link rel="stylesheet" href="style/Loading.css">
+    <link rel="stylesheet" href="style/Sitemap.css">
+    <link rel="stylesheet" href="style/Socialmedia.css">
+    <link rel="stylesheet" href="style/Footer.css">
 </head>
-<body>
-  <h1 class="Block">Gulp is awesome! :)</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur blanditiis, doloremque earum facilis ipsam iste magnam, molestiae, mollitia necessitatibus neque nesciunt pariatur quam quia quidem rem sapiente similique vitae.</p>
+<body class="Layout">
+<header class="Layout__header">
+    <div class="Promoarticle">
+        <div class="Wrapper">
+            <div class="Promoarticle__header">
+                <p class="Logo">THEMOVIEBOX</p>
+                <div class="Promoarticle__header-right">
+                    <button class="Search"></button>
+                    <div class="Profile">
+                        <button class="Profile__login">LOG IN</button>
+                        <button class="Profile__signup">SIGN UP</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="Promoarticle__bottom">
+            <div class="Wrapper">
+                <div class="Promoarticle__description">
+                    <p class="Promoarticle__name">WRATH OF THE TITANS</p>
+                    <section class="Promoarticle__about">
+                        <p class="Promoarticle__genre">Fantasy</p>
+                        <p class="Promoarticle__genre">Animation</p>
+                        <p class="Promoarticle__genre">Family</p>
+                        <p class="Promoarticle__duration">Duration: 1h 52m</p>
+                    </section>
+                </div>
+                <div class="Promoarticle__footer">
+                    <div class="User-options">
+                        <button class="User-options__watch">WATCH MOVIE</button>
+                        <button class="User-options__view">VIEW INFO</button>
+                        <button class="User-options__add">+ ADD TO WISHLIST</button>
+                    </div>
+                    <div class="Promoarticle__raiting-info">
+                        <p class="Promoarticle__raiting">Raiting <span class="Promoarticle__raiting Promoarticle__raiting_details">based on 3.546 reviews</span></p>
+                        <div class="Promoarticle__star"></div>
+                        <div class="Promoarticle__star"></div>
+                        <div class="Promoarticle__star"></div>
+                        <div class="Promoarticle__star Promoarticle__star_half"></div>
+                        <div class="Promoarticle__star Promoarticle__star_transparent"></div>
+                        <div class="Promoarticle__star Promoarticle__star_count">3.4</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <main class="Layout__main">
+    <div class="Wrapper">
+        <nav class="Navigation">
+            <div class="Navigation__items">
+                <a class="Navigation__item Navigation__item_selected" href="#">Trending</a>
+                <a class="Navigation__item" href="#">Top Rated</a>
+                <a class="Navigation__item" href="#">New Arrivals</a>
+                <a class="Navigation__item" href="#">Genre<button class="Navigation__drop-down"></button></a>
+            </div>
+            <div class="Navigation__views">
+                <div class="Navigation__view Navigation__view_icons"></div>
+                <div class="Navigation__view Navigation__view_list"></div>
+            </div>
+        </nav>
+        <div class="Movies-menu">
+                <article class="Movie">
+                    <img class="Movie__poster" src="http:&#x2F;&#x2F;res.cloudinary.com&#x2F;dvhn8lvvz&#x2F;image&#x2F;upload&#x2F;c_fill,g_north,h_268,w_217&#x2F;v1517009503&#x2F;Logan-Poster-Hugh-Jackman-Wolverine-3_tqck5c.jpg" alt="">
+                    <p class="Movie__year">2017</p>
+                    <p class="Movie__name">Logan</p>
+                    <p class="Movie__genre">Action, Adventure, Fantasy</p>
+                    <div class="Movie__rating">4.0</div>
+                </article>
+                <article class="Movie">
+                    <img class="Movie__poster" src="http:&#x2F;&#x2F;res.cloudinary.com&#x2F;dvhn8lvvz&#x2F;image&#x2F;upload&#x2F;c_fill,g_face,h_268,w_217&#x2F;v1517010266&#x2F;john-wick-2-guns_fhju6e.jpg" alt="">
+                    <p class="Movie__year">2017</p>
+                    <p class="Movie__name">John Wick: Chapter 2</p>
+                    <p class="Movie__genre">Action, Thriller</p>
+                    <div class="Movie__rating">4.8</div>
+                </article>
+                <article class="Movie">
+                    <img class="Movie__poster" src="http:&#x2F;&#x2F;res.cloudinary.com&#x2F;dvhn8lvvz&#x2F;image&#x2F;upload&#x2F;c_fill,g_face,h_268,w_217&#x2F;v1517010454&#x2F;fantastic-beasts-1200-1200-675-675-crop-000000_cspss8.jpg" alt="">
+                    <p class="Movie__year">2017</p>
+                    <p class="Movie__name">Fantastic beasts an…</p>
+                    <p class="Movie__genre">Adventure, Fantasy, Action</p>
+                    <div class="Movie__rating">4.5</div>
+                </article>
+                <article class="Movie">
+                    <img class="Movie__poster" src="http:&#x2F;&#x2F;res.cloudinary.com&#x2F;dvhn8lvvz&#x2F;image&#x2F;upload&#x2F;c_fill,g_face,h_268,w_217&#x2F;v1517010586&#x2F;50shades_fjia6a.jpg" alt="">
+                    <p class="Movie__year">2017</p>
+                    <p class="Movie__name">Fifty shades darker</p>
+                    <p class="Movie__genre">Drama, Roman</p>
+                    <div class="Movie__rating">4.6</div>
+                </article>
+                <article class="Movie">
+                    <img class="Movie__poster" src="http:&#x2F;&#x2F;res.cloudinary.com&#x2F;dvhn8lvvz&#x2F;image&#x2F;upload&#x2F;c_fill,g_center,h_268,w_217&#x2F;v1517010721&#x2F;Beauty-and-the-Beast-2017-after-credits-hq_prsoos.jpg" alt="">
+                    <p class="Movie__year">2017</p>
+                    <p class="Movie__name">Beauty and the Beast</p>
+                    <p class="Movie__genre">Musical, Drama, Fantasy</p>
+                    <div class="Movie__rating">4.4</div>
+                </article>
+                <article class="Movie">
+                    <img class="Movie__poster" src="http:&#x2F;&#x2F;res.cloudinary.com&#x2F;dvhn8lvvz&#x2F;image&#x2F;upload&#x2F;c_fill,g_center,h_268,w_217&#x2F;v1517011128&#x2F;MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_UY1200_CR69_0_630_1200_AL__ztini0.jpg" alt="">
+                    <p class="Movie__year">2017</p>
+                    <p class="Movie__name">Arrival</p>
+                    <p class="Movie__genre">Action, Thriller, Sci-Fi</p>
+                    <div class="Movie__rating">3.4</div>
+                </article>
+                <article class="Movie">
+                    <img class="Movie__poster" src="http:&#x2F;&#x2F;res.cloudinary.com&#x2F;dvhn8lvvz&#x2F;image&#x2F;upload&#x2F;c_fill,g_center,h_268,w_217&#x2F;v1517011279&#x2F;landscape-1504266508-justice-league-1_yydbbs.jpg" alt="">
+                    <p class="Movie__year">2017</p>
+                    <p class="Movie__name">Justice League</p>
+                    <p class="Movie__genre">Adventure, Sci-Fi, Action</p>
+                    <div class="Movie__rating">3.9</div>
+                </article>
+                <article class="Movie">
+                    <img class="Movie__poster" src="http:&#x2F;&#x2F;res.cloudinary.com&#x2F;dvhn8lvvz&#x2F;image&#x2F;upload&#x2F;c_fill,g_faces,h_268,w_217&#x2F;v1517011407&#x2F;MV5BMTYyMTcxNzc5M15BMl5BanBnXkFtZTgwOTg2ODE2MTI_._V1_UY1200_CR90_0_630_1200_AL__xtycxn.jpg" alt="">
+                    <p class="Movie__year">2017</p>
+                    <p class="Movie__name">Pirates of the Caribb…</p>
+                    <p class="Movie__genre">Adventure, Fantasy, Action</p>
+                    <div class="Movie__rating">4.2</div>
+                </article>
+                <article class="Movie">
+                    <img class="Movie__poster" src="http:&#x2F;&#x2F;res.cloudinary.com&#x2F;dvhn8lvvz&#x2F;image&#x2F;upload&#x2F;c_fill,g_center,h_268,w_217&#x2F;v1517011613&#x2F;586d60f7b0cf1.image_b4frnd.jpg" alt="">
+                    <p class="Movie__year">2017</p>
+                    <p class="Movie__name">Wonder Woman</p>
+                    <p class="Movie__genre">Action, Adventure, Sci-Fi</p>
+                    <div class="Movie__rating">3.8</div>
+                </article>
+                <article class="Movie">
+                    <img class="Movie__poster" src="http:&#x2F;&#x2F;res.cloudinary.com&#x2F;dvhn8lvvz&#x2F;image&#x2F;upload&#x2F;c_fill,g_center,h_268,w_217&#x2F;v1517011747&#x2F;4117_jvjg00.jpg" alt="">
+                    <p class="Movie__year">2017</p>
+                    <p class="Movie__name">Guardians of the Gal…</p>
+                    <p class="Movie__genre">Action, Sci-Fi, Comedy</p>
+                    <div class="Movie__rating">3.0</div>
+                </article>
+                <article class="Movie">
+                    <img class="Movie__poster" src="http:&#x2F;&#x2F;res.cloudinary.com&#x2F;dvhn8lvvz&#x2F;image&#x2F;upload&#x2F;c_fill,g_center,h_268,w_217&#x2F;v1517014704&#x2F;xalien_covenant_fill.jpg.pagespeed.ic.rPyCbS72Kx.0_chskef.jpg" alt="">
+                    <p class="Movie__year">2017</p>
+                    <p class="Movie__name">Alien: Covenant</p>
+                    <p class="Movie__genre">Horror, Action, Sci-Fi, Action</p>
+                    <div class="Movie__rating">4.0</div>
+                </article>
+                <article class="Movie">
+                    <img class="Movie__poster" src="http:&#x2F;&#x2F;res.cloudinary.com&#x2F;dvhn8lvvz&#x2F;image&#x2F;upload&#x2F;c_fill,g_face,h_268,w_217&#x2F;v1517011988&#x2F;captain-underpants-633x356_wfco6l.jpg" alt="">
+                    <p class="Movie__year">2017</p>
+                    <p class="Movie__name">Captain Underpant…</p>
+                    <p class="Movie__genre">Animation, Comedy</p>
+                    <div class="Movie__rating">3.5</div>
+                </article>
+        </div>
+        <figure class="Loading">
+            <img class="Loading__image" src="img/loading.svg" alt="">
+            <figcaption class="Loading__text">LOADING</figcaption>
+        </figure>
+    </div>
+    </main>
+    <footer class="Layout__footer">
+        <div class="Wrapper">
+            <div class="Footer">
+                <div class="Footer__top">
+                    <p class="Logo Logo_dark">THEMOVIEBOX</p>
+                    <nav class="Sitemap">
+                        <a class="Sitemap__item" href="">About</a>
+                        <a class="Sitemap__item" href="">Movies</a>
+                        <a class="Sitemap__item" href="">Ratings</a>
+                        <a class="Sitemap__item" href="">Contact</a>
+                    </nav>
+                </div>
+                <div class="Footer__bottom">
+                    <p class="Footer__copyright">Designed by Milan Houter. All rights reserved.</p>
+                    <div class="Social-media">
+                        <a class="Social-media__item Social-media__item_fb" href=""></a>
+                        <a class="Social-media__item Social-media__item_pinterest" href=""></a>
+                        <a class="Social-media__item Social-media__item_twitter" href=""></a>
+                        <a class="Social-media__item Social-media__item_linkedin" href=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

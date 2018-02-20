@@ -1,0 +1,27 @@
+.Footer {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 80px;
+}
+.Footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 0;
+}
+.Footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.Footer__copyright {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #80818a;
+}
