@@ -46,10 +46,10 @@
   height: 30px;
 }
 .Navigation__view_icons {
-  background-image: url("../img/thumbnail-view.svg");
+  background-image: url("../images/thumbnail-view.svg");
   background-size: cover;
 }
 .Navigation__view_list {
-  background-image: url("../img/detailed-view.svg");
+  background-image: url("../images/detailed-view.svg");
   background-size: cover;
 }

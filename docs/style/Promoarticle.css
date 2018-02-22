@@ -73,13 +73,13 @@
   width: 30px;
   height: 30px;
   background-size: cover;
-  background: url("../img/star.svg");
+  background: url("../images/star.svg");
 }
 .Promoarticle__star_half {
-  background-image: url("../img/star_half.svg");
+  background-image: url("../images/star_half.svg");
 }
 .Promoarticle__star_transparent {
-  background-image: url("../img/star_transparent.svg");
+  background-image: url("../images/star_transparent.svg");
 }
 .Promoarticle__star_count {
   background-image: none;

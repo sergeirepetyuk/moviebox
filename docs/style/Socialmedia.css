@@ -8,23 +8,23 @@
   opacity: .2;
 }
 .Social-media__item_fb {
-  background-image: url("../img/fb.png");
+  background-image: url("../images/fb.png");
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .Social-media__item_pinterest {
-  background-image: url("../img/pinterest-logo.png");
+  background-image: url("../images/pinterest-logo.png");
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .Social-media__item_twitter {
-  background-image: url("../img/twitter-icon-circle-logo.png");
+  background-image: url("../images/twitter-icon-circle-logo.png");
   background-size: cover;
 }
 .Social-media__item_linkedin {
-  background-image: url("../img/linkedin.png");
+  background-image: url("../images/linkedin.png");
   background-size: 90%;
   background-repeat: no-repeat;
   background-position: center;
